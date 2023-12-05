@@ -1,10 +1,11 @@
-/* Creating color variables */
+/* Creating default color variables */
 :root {
     --darker:#36454f;
     --lighter:#ADD8E6;
     --border: 4px solid var(--lighter);
 }
 
+/* General styles */
 h2 {
     text-align:center;
 }
@@ -13,7 +14,7 @@ h5 {
     font-size: 16px;
 }
 
-
+/* Hero section styling */
 #hero-section p {
     color:white;
 }
@@ -54,6 +55,7 @@ h5 {
     text-align: right;
 }
 
+/* Portfolio section styling */
 #portfolio-section {
     margin-top: 20px;
 }
@@ -79,6 +81,8 @@ h5 {
     font-size: 14px;
 }
 
+/* Skills section styling */
+
 .skills-list {
     text-align:center;
     list-style:none;
@@ -92,9 +96,7 @@ h5 {
     margin:25px;
 }
 
-/* footer {
-    background-color: lightgrey;
-} */
+/* footer section styling */
 
 footer div ul {
     display:flex;
