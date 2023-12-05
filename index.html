@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <!-- Head including required meta tags, Bootstrap and stylesheet link and title-->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="css/style.css" rel="stylesheet">
+        
+        <script src="https://kit.fontawesome.com/403287826c.js" crossorigin="anonymous"></script>
+
+        <title>Eric's Web-Dev Portfolio</title>
+    </head>
+    
+    <body>
+    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="home">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#home">Eric's Web Dev Portfolio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      My Work
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#bootstrapped-port">Bootstrap Portfolio</a></li>
+                      <li><a class="dropdown-item" href="#vanilla-port">Vanilla Portfolio</a></li>
+                      <li><a class="dropdown-item" href="#horiseon-m">Horiseon Marketing</a></li>
+                      <li><a class="dropdown-item" href="#tbd">Project TBD</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills-section">Skills Learned</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about-section">About Me</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <section id="hero-section">
+            <div class="container-fluid hero">
+                <div class="row hero-caption">
+                    <div class="col col-lg-4 col-md-6 col-sm-4">
+                        <img id="ericPhoto" src="images/Eric.jpeg" alt="An images of Eric">
+                    </div>
+                    <div class="col col-lg-4 col-md-6 col-sm-8">
+                        <h3>Eric's Web Dev Portfolio</h3>
+                        <p>Welcome to my web development portfolio! Hope you find something interesting below!</p>
+                    </div>
+                    <div class="col col-lg-4 col-md-12 col-sm-12 quote">
+                        <p>“A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away"</p>
+                        <p class="quotee">-Antonie De-Saint Exupery</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio-section">
+            <div class="container-fluid">
+                <h2>My Work</h2>
+                <div class="row">
+                  <div class="col col-lg-3 col-md-6 col-sm-12" id="bootstrapped-port">
+                    <div class="card">
+                        <img src="images/Portfolio-BS.png" class="card-img-top" alt="An image of a bootstrapped portfolio">
+                        <div class="card-body">
+                          <h5 class="card-title">Bootstrap Portfolio</h5>
+                          <p class="card-text">A Web-Dev Portfolio made with Bootstrap 5</p>
+                          <a href="#" class="btn btn-primary">Go to project</a>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="col col-lg-3 col-md-6 col-sm-12" id="vanilla-port">
+                    <div class="card">
+                        <img src="images/Portfolio.png" class="card-img-top" alt="An image of a non-bootstrapped portfolio">
+                        <div class="card-body">
+                          <h5 class="card-title">Vanilla Portfolio</h5>
+                          <p class="card-text">A Web-Dev Portfolio made with HTML & CSS</p>
+                          <a href="#" class="btn btn-primary">Go to project</a>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="col col-lg-3 col-md-6 col-sm-12" id="horiseon-m">
+                    <div class="card">
+                        <img src="images/Horiseon.png" class="card-img-top" alt="An image of Horiseon Marketing's website">
+                        <div class="card-body">
+                          <h5 class="card-title">Horiseon Marketing</h5>
+                          <p class="card-text">Refracting CSS and HTML code on a website</p>
+                          <a href="https://kidleis.github.io/horiseon-marketing-homepage/" class="btn btn-primary">Go to project</a>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="col col-lg-3 col-md-6 col-sm-12" id="tbd">
+                    <div class="card">
+                        <img src="https://placehold.co/600x400/000000/FFF" class="card-img-top" alt="Placeholder image">
+                        <div class="card-body">
+                          <h5 class="card-title">Project TBD</h5>
+                          <p class="card-text">A placeholder for my next project! Stay tuned</p>
+                          <a href="" class="btn btn-primary disabled">Work in Progress</a>
+                        </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+
+        </section>
+    
+        <section id="skills-and-about">
+            <div class="row">
+                    <div class="container-fluid col col-lg-4 col-md-12" id="skills-section">
+                        <h2>Skills Learned</h2>
+                        <ul class="skills-list">
+                            <li>
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <p>CSS</p>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-html5"></i>
+                                <p>HTML</p>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-bootstrap"></i>
+                                <p>Bootstrap</p>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-git-alt"></i>
+                                <p>Git</p>
+                            </li>
+                        
+                        </ul>
+                    </div>
+
+                    <div class="col col-lg-7 col-md-10 col-sm-10 container" id="about-section">
+                        <h2>About Me</h2>
+                        <p>
+                            Welcome to my new web-dev portfolio made with Bootstrap 5!
+                        </p>
+                        <p>
+                            I am an aspiring web developer who is currently taking a front end development bootcamp, I hope to spin out a lot of cool content in the next 12 months. 
+                        </p>
+                        <p>
+                            Please get in touch if you would like to collaborate!
+                        </p>
+                    </div>
+            </div>
+        </section>     
+        
+        <hr>
+
+        <footer>
+            <div class="container-fluid">
+                <ul class="contact-me">
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto: eric.shen123@gmail.com">eric.shen123@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel: +447483385541">+44 7483 385 541</a>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/eric-shen-a46b46175/">Linkedin</a>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-github"></i>
+                        <a href="https://github.com/KidLeiS">Github</a>
+                    </li>
+                
+                </ul>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    </body>
+
+
+</html>
